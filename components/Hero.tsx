@@ -9,7 +9,7 @@ export const Hero = () => {
   if (isConnected) {
     return (
       <section className="relative mx-auto mt-28 gap-4 text-center">
-        <div className="flex items-center justify-center gap-2 text-white text-4xl font-bold">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-2 text-white text-4xl font-bold">
           <Image
             src="/metamask-logo.svg"
             alt="MetaMask Logo"
